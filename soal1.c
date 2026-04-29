@@ -1,3 +1,11 @@
+/** EL2008 Praktikum Pemecahan Masalah dengan Pemrograman 2024/2025
+ *   Modul               : 3 (Structures and Dynamic Arrays)
+ *   Hari dan Tanggal    : Rabu, 29 April 2026
+ *   Nama (NIM)          : Yudhi Tsabit Izhharul Mulki (13224052)
+ *   Nama File           : Arsip Artefak Terkategori.c
+ *   Deskripsi           : Sebuah sistem yang dapat sorting suatu strukur yang berisi nama kategori tahun beserta nilai yang disusun dengan beberapa kondisi
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
