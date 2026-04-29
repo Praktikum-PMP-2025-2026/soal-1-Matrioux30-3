@@ -21,7 +21,7 @@ void best(artefak *data, int N){
             if (strcmp(data[i].kategori, data[i+1].kategori)>0) {
                 swap(&data[i],&data[i+1]);
             }
-            else if(data[i].kategori == data[i+1].kategori){
+            else if(strcmp(data[i].kategori, data[i+1].kategori) == 0 ){
                 if(data[i].tahun > data[i+1].tahun){
                     swap(&data[i],&data[i+1]);
             }
@@ -46,7 +46,7 @@ int main(){
     artefak kategori[N];
 
     for(int i=0; i<N; i++){
-        scanf("%s %s %d %d", &kategori[i].nama, &kategori[i].kategori, &kategori[i].tahun, &kategori[i].nilai);
+        scanf("%s %s %d %d", kategori[i].nama, kategori[i].kategori, &kategori[i].tahun, &kategori[i].nilai);
     }
 
     best(kategori, N);
